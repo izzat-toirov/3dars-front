@@ -39,10 +39,7 @@ li{
     width: 30px;
 }
 .wrapper{
-    display: flex;
     padding: 30px;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 .form{
     display: flex;
@@ -60,6 +57,7 @@ li{
 }
 .card p{
     font-size: 22px;
+    font-weight: 600;
 }
 .card__image img{
     width: 100%;
@@ -71,6 +69,30 @@ li{
     display: flex;
     margin-top: 100px;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+}
+
+.image{
+    display: flex;
+    gap: 20px;
+}
+
+.image__image{
+    width: 500px;
+    height: 300px;
+}
+
+.image__card{
+    font-size: 22px;
+    font-weight: 700;
+}
+.card button{
+    margin-top: 20px;
+    padding: 15px;
+    background: blue;
+    color: white;
+    border: none;
+    font-weight: 700;
 }
 
